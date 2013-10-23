@@ -4,22 +4,23 @@
     android:layout_height="match_parent" >
 
     <ImageView
-        android:id="@+id/imageView1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:maxHeight="100dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:adjustViewBounds="true"
-        android:scaleType="centerCrop"
-        android:src="@drawable/baguettes_2" />
-
-    <ImageView
         android:id="@+id/imageView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:src="@drawable/baguette_instructions" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="18dp"
+        android:adjustViewBounds="true"
+        android:maxHeight="100dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/baguettes_2" />
 
 </RelativeLayout>
