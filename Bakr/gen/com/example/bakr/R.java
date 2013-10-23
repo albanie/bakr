@@ -23,14 +23,17 @@ public final class R {
     public static final class drawable {
         public static final int allinson_charlotte=0x7f020000;
         public static final int background=0x7f020001;
-        public static final int baguettes=0x7f020002;
-        public static final int baileys=0x7f020003;
-        public static final int baked_cheesecake=0x7f020004;
-        public static final int bakr_girl=0x7f020005;
-        public static final int bakr_girl_small=0x7f020006;
-        public static final int beetroot=0x7f020007;
-        public static final int ic_launcher=0x7f020008;
-        public static final int title=0x7f020009;
+        public static final int baguette_instructions=0x7f020002;
+        public static final int baguettes=0x7f020003;
+        public static final int baguettes_2=0x7f020004;
+        public static final int baguettes_image=0x7f020005;
+        public static final int baileys=0x7f020006;
+        public static final int baked_cheesecake=0x7f020007;
+        public static final int bakr_girl=0x7f020008;
+        public static final int bakr_girl_small=0x7f020009;
+        public static final int beetroot=0x7f02000a;
+        public static final int ic_launcher=0x7f02000b;
+        public static final int title=0x7f02000c;
     }
     public static final class id {
         public static final int action_settings=0x7f080007;
@@ -44,6 +47,7 @@ public final class R {
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
+        public static final int recipe_one=0x7f030001;
     }
     public static final class menu {
         public static final int main=0x7f070000;
