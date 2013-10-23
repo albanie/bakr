@@ -34,8 +34,10 @@ public final class R {
         public static final int bakr_girl=0x7f02000a;
         public static final int bakr_girl_small=0x7f02000b;
         public static final int beetroot=0x7f02000c;
-        public static final int ic_launcher=0x7f02000d;
-        public static final int title=0x7f02000e;
+        public static final int cupcake_instructions=0x7f02000d;
+        public static final int cupcakes_image=0x7f02000e;
+        public static final int ic_launcher=0x7f02000f;
+        public static final int title=0x7f020010;
     }
     public static final class id {
         public static final int action_settings=0x7f080007;
@@ -50,7 +52,8 @@ public final class R {
     public static final class layout {
         public static final int activity_main=0x7f030000;
         public static final int recipe_one=0x7f030001;
-        public static final int recipe_two=0x7f030002;
+        public static final int recipe_three=0x7f030002;
+        public static final int recipe_two=0x7f030003;
     }
     public static final class menu {
         public static final int main=0x7f070000;
