@@ -36,7 +36,9 @@
         android:layout_alignParentLeft="true"
         android:layout_below="@+id/imageView1"
         android:layout_marginTop="20dp"
-        android:src="@drawable/baguettes" />
+        android:src="@drawable/baguettes" 
+        android:onClick="doStuff"/>
+   
 
     <ImageView
         android:id="@+id/imageView4"
@@ -48,7 +50,8 @@
         android:layout_marginTop="10dp"
         android:maxWidth="260dp"
         android:scaleType="centerInside"
-        android:src="@drawable/allinson_charlotte" />
+        android:src="@drawable/allinson_charlotte" 
+        android:onClick="doStuff"/>
 
     <ImageView
         android:id="@+id/imageView5"
@@ -59,7 +62,8 @@
         android:layout_marginTop="5dp"
         android:maxWidth="300dp"
         android:paddingLeft="80dip"
-        android:src="@drawable/baileys" />
+        android:src="@drawable/baileys" 
+        android:onClick="doStuff"/>
 
     <ImageView
         android:id="@+id/imageView6"
@@ -72,7 +76,8 @@
         android:maxWidth="230dip"
         android:layout_marginTop="10dp"
         android:paddingLeft="40dip"
-        android:src="@drawable/baked_cheesecake" />
+        android:src="@drawable/baked_cheesecake" 
+        android:onClick="doStuff"/>
 
     <ImageView
         android:id="@+id/imageView7"
@@ -83,6 +88,7 @@
         android:layout_marginTop="15dp"
         android:adjustViewBounds="true"
         android:maxWidth="230dp"
-        android:src="@drawable/beetroot" />
+        android:src="@drawable/beetroot" 
+        android:onClick="doStuff"/>
 
 </RelativeLayout>
