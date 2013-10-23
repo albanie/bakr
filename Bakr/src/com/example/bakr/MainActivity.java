@@ -3,6 +3,7 @@ package com.example.bakr;
 import android.os.Bundle;
 import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
 import android.view.Menu;
 import android.view.View;
 import android.widget.Toast;
@@ -22,6 +23,9 @@ final Context context = this;
 		return true;
 	}
 public void doStuff(View view){
-	Toast.makeText(context, "hi", Toast.LENGTH_LONG).show();
+	Intent intent = new Intent(this,MenuActivity.class);
+	intent.putExtra("ID", view.getId());
+	startActivity(intent);
+	
 }
 }
