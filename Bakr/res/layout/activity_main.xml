@@ -1,17 +1,19 @@
+
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity" >
 
-    <TextView
-        android:id="@+id/textView1"
+    <ImageView
+        android:id="@+id/imageView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/imageView1"
-        android:layout_below="@+id/imageView1"
-        android:layout_marginTop="44dp"
-        android:text="@string/hello_world" />
+        android:layout_toLeftOf="@+id/imageView1"
+        android:layout_alignParentTop="true"
+        android:paddingTop="10dip"
+        android:paddingLeft="20dip"
+        android:src="@drawable/title" />
 
     <ImageView
         android:id="@+id/imageView1"
@@ -21,5 +23,66 @@
         android:layout_alignParentTop="true"
         android:src="@drawable/bakr_girl_small"
         android:paddingTop="5dip" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:maxHeight="100dp"
+		android:maxWidth="300dp"
+        android:scaleType="fitXY"
+        android:paddingLeft="120dip"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/baguettes" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView3"
+        android:paddingLeft="40dip"
+        android:adjustViewBounds="true"
+        android:layout_marginTop="10dp"
+        android:maxWidth="260dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/allinson_charlotte" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView4"
+        android:adjustViewBounds="true"
+        android:layout_marginTop="5dp"
+        android:maxWidth="300dp"
+        android:paddingLeft="80dip"
+        android:src="@drawable/baileys" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imageView5"
+        android:adjustViewBounds="true"
+        android:maxHeight="100dip"
+        android:maxWidth="230dip"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="40dip"
+        android:src="@drawable/baked_cheesecake" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/imageView6"
+        android:layout_marginTop="15dp"
+        android:adjustViewBounds="true"
+        android:maxWidth="230dp"
+        android:src="@drawable/beetroot" />
 
 </RelativeLayout>
