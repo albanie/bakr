@@ -1,9 +1,33 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android" >
 
     <item
-        android:id="@+id/action_settings"
+        android:id="@+id/buttonone"
         android:orderInCategory="100"
         android:showAsAction="never"
-        android:title="@string/action_settings"/>
+        android:title="@string/showimage1"/>
+    
+    <item
+        android:id="@+id/buttontwo"
+        android:orderInCategory="200"
+        android:showAsAction="never"
+        android:title="@string/showimage2"/>
+    
+    <item
+        android:id="@+id/buttonthree"
+        android:orderInCategory="300"
+        android:showAsAction="never"
+        android:title="@string/showwhite"/>
+    
+    <item
+        android:id="@+id/buttonfour"
+        android:orderInCategory="400"
+        android:showAsAction="never"
+        android:title="@string/showblack"/>
+    
+    <item
+        android:id="@+id/buttonfive"
+        android:orderInCategory="500"
+        android:showAsAction="never"
+        android:title="@string/showalert"/>
 
 </menu>
