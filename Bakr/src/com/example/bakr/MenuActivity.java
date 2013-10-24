@@ -13,24 +13,26 @@ public class MenuActivity extends Activity {
 		Intent intent = getIntent();
 		int id=intent.getIntExtra("ID",0);
 		setContentView(R.layout.activity_main);
+		
 	    switch (id) {
-	    case (R.id.imageView3):
+	    case (0):
 	    	setContentView(R.layout.recipe_one);
 	    break;
-	    case (R.id.imageView4):
+	    case (1):
 	    	setContentView(R.layout.recipe_two);
 	    break;
-	    case (R.id.imageView5):
+	    case (2):
 	    	setContentView(R.layout.recipe_three);
 	    break;
-	    case (R.id.imageView6):
+	    case (3):
 	    	setContentView(R.layout.recipe_four);
 	    break;
-	    case (R.id.imageView7):
+	    case (4):
 	    	setContentView(R.layout.recipe_five);
 	    break;
 
 	    }
+	    
 	}
 
 	@Override

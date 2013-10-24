@@ -11,6 +11,8 @@
     <string name="showwhite">Show white</string>
     <string name="showblack">Show black</string>
     <string name="showalert">Show alert</string>
+    <string name="strCity">This stuff</string>
+    <string name="strWeather">This other stuff</string>
     <color name="background1">#FFFFFF</color>
     <color name="background2">#000000</color>
 
