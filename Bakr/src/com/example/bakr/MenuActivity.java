@@ -14,16 +14,16 @@ public class MenuActivity extends Activity {
 		int id=intent.getIntExtra("ID",0);
 		setContentView(R.layout.activity_main);
 	    switch (id) {
-	    case (R.id.imageView3):
+	    case (R.id.baguetteButton):
 	    	setContentView(R.layout.recipe_one);
 	    break;
 	    case (R.id.imageView4):
 	    	setContentView(R.layout.recipe_two);
 	    break;
-	    case (R.id.imageView5):
+	    case (R.id.cupcakeButton):
 	    	setContentView(R.layout.recipe_three);
 	    break;
-	    case (R.id.imageView6):
+	    case (R.id.cheesecakeButton):
 	    	setContentView(R.layout.recipe_four);
 	    break;
 	    case (R.id.imageView7):

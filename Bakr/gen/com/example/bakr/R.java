@@ -38,11 +38,19 @@ public final class R {
         public static final int bakr_girl=0x7f02000a;
         public static final int bakr_girl_small=0x7f02000b;
         public static final int beetroot=0x7f02000c;
-        public static final int cheesecake_final=0x7f02000d;
-        public static final int cupcake_instructions=0x7f02000e;
-        public static final int cupcakes_image=0x7f02000f;
-        public static final int ic_launcher=0x7f020010;
-        public static final int title=0x7f020011;
+        public static final int cheesecake_button=0x7f02000d;
+        public static final int cheesecake_final=0x7f02000e;
+        public static final int cheesecake_focus=0x7f02000f;
+        public static final int cheesecake_normal=0x7f020010;
+        public static final int cheesecake_pressed=0x7f020011;
+        public static final int cupcake_button=0x7f020012;
+        public static final int cupcake_focus=0x7f020013;
+        public static final int cupcake_instructions=0x7f020014;
+        public static final int cupcake_normal=0x7f020015;
+        public static final int cupcake_pressed=0x7f020016;
+        public static final int cupcakes_image=0x7f020017;
+        public static final int ic_launcher=0x7f020018;
+        public static final int title=0x7f020019;
     }
     public static final class id {
         public static final int action_settings=0x7f09000d;
@@ -51,13 +59,13 @@ public final class R {
         public static final int chronometer1=0x7f09000a;
         public static final int content=0x7f090008;
         public static final int handle=0x7f090009;
+        public static final int imageButton1=0x7f090006;
+        public static final int imageButton2=0x7f090005;
         public static final int imageView1=0x7f090001;
         public static final int imageView2=0x7f090000;
         public static final int imageView3=0x7f090002;
         public static final int imageView4=0x7f090003;
-        public static final int imageView5=0x7f090004;
-        public static final int imageView6=0x7f090005;
-        public static final int imageView7=0x7f090006;
+        public static final int imageView7=0x7f090004;
         public static final int slidingDrawer1=0x7f090007;
     }
     public static final class layout {
