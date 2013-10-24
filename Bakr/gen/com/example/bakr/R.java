@@ -45,12 +45,9 @@ public final class R {
         public static final int title=0x7f020011;
     }
     public static final class id {
-        public static final int action_settings=0x7f090010;
-        public static final int buttonfive=0x7f09000f;
-        public static final int buttonfour=0x7f09000e;
-        public static final int buttonone=0x7f09000b;
-        public static final int buttonthree=0x7f09000d;
-        public static final int buttontwo=0x7f09000c;
+        public static final int action_settings=0x7f09000d;
+        public static final int buttonfour=0x7f09000c;
+        public static final int buttonthree=0x7f09000b;
         public static final int chronometer1=0x7f09000a;
         public static final int content=0x7f090008;
         public static final int handle=0x7f090009;
