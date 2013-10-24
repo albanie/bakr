@@ -24,10 +24,10 @@ public class MenuActivity extends Activity {
 	    	setContentView(R.layout.recipe_three);
 	    break;
 	    case (R.id.imageView6):
-	    	setContentView(R.layout.recipe_three);
+	    	setContentView(R.layout.recipe_four);
 	    break;
 	    case (R.id.imageView7):
-	    	setContentView(R.layout.recipe_three);
+	    	setContentView(R.layout.recipe_five);
 	    break;
 
 	    }
