@@ -17,7 +17,7 @@ public class MenuActivity extends Activity {
 	    case (R.id.baguetteButton):
 	    	setContentView(R.layout.recipe_one);
 	    break;
-	    case (R.id.imageView4):
+	    case (R.id.appleButton):
 	    	setContentView(R.layout.recipe_two);
 	    break;
 	    case (R.id.cupcakeButton):
@@ -26,10 +26,6 @@ public class MenuActivity extends Activity {
 	    case (R.id.cheesecakeButton):
 	    	setContentView(R.layout.recipe_four);
 	    break;
-	    case (R.id.imageView7):
-	    	setContentView(R.layout.recipe_five);
-	    break;
-
 	    }
 	}
 
