@@ -10,6 +10,10 @@ package com.example.bakr;
 public final class R {
     public static final class attr {
     }
+    public static final class color {
+        public static final int background1=0x7f060000;
+        public static final int background2=0x7f060001;
+    }
     public static final class dimen {
         /**  Default screen margins, per the Android Design guidelines. 
 
@@ -21,21 +25,78 @@ public final class R {
         public static final int activity_vertical_margin=0x7f040001;
     }
     public static final class drawable {
-        public static final int ic_launcher=0x7f020000;
+        public static final int allinson_charlotte=0x7f020000;
+        public static final int apple_button=0x7f020001;
+        public static final int apple_charlotte=0x7f020002;
+        public static final int apple_focus=0x7f020003;
+        public static final int apple_instructions=0x7f020004;
+        public static final int apple_normal=0x7f020005;
+        public static final int apple_pressed=0x7f020006;
+        public static final int background=0x7f020007;
+        public static final int baguette_button=0x7f020008;
+        public static final int baguette_focus=0x7f020009;
+        public static final int baguette_icon=0x7f02000a;
+        public static final int baguette_instructions=0x7f02000b;
+        public static final int baguette_normal=0x7f02000c;
+        public static final int baguette_pressed=0x7f02000d;
+        public static final int baguettes=0x7f02000e;
+        public static final int baguettes_2=0x7f02000f;
+        public static final int baguettes_image=0x7f020010;
+        public static final int baileys=0x7f020011;
+        public static final int baked_cheesecake=0x7f020012;
+        public static final int bakr_girl=0x7f020013;
+        public static final int bakr_girl_small=0x7f020014;
+        public static final int beetroot=0x7f020015;
+        public static final int cheesecake_button=0x7f020016;
+        public static final int cheesecake_final=0x7f020017;
+        public static final int cheesecake_focus=0x7f020018;
+        public static final int cheesecake_instructions=0x7f020019;
+        public static final int cheesecake_normal=0x7f02001a;
+        public static final int cheesecake_pressed=0x7f02001b;
+        public static final int cupcake_button=0x7f02001c;
+        public static final int cupcake_focus=0x7f02001d;
+        public static final int cupcake_instructions=0x7f02001e;
+        public static final int cupcake_normal=0x7f02001f;
+        public static final int cupcake_pressed=0x7f020020;
+        public static final int cupcakes_image=0x7f020021;
+        public static final int ic_launcher=0x7f020022;
+        public static final int title=0x7f020023;
     }
     public static final class id {
-        public static final int action_settings=0x7f080000;
+        public static final int action_settings=0x7f090008;
+        public static final int appleButton=0x7f090004;
+        public static final int baguetteButton=0x7f090003;
+        public static final int buttonfour=0x7f090007;
+        public static final int buttonthree=0x7f090006;
+        public static final int cheesecakeButton=0x7f090005;
+        public static final int cupcakeButton=0x7f090002;
+        public static final int imageView1=0x7f090000;
+        public static final int imageView2=0x7f090001;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
+        public static final int activity_menu=0x7f030001;
+        public static final int recipe_five=0x7f030002;
+        public static final int recipe_four=0x7f030003;
+        public static final int recipe_one=0x7f030004;
+        public static final int recipe_three=0x7f030005;
+        public static final int recipe_two=0x7f030006;
     }
     public static final class menu {
-        public static final int main=0x7f070000;
+        public static final int main=0x7f080000;
+        public static final int menu=0x7f080001;
     }
     public static final class string {
         public static final int action_settings=0x7f050001;
         public static final int app_name=0x7f050000;
         public static final int hello_world=0x7f050002;
+        public static final int more_handle=0x7f050004;
+        public static final int showalert=0x7f050009;
+        public static final int showblack=0x7f050008;
+        public static final int showimage1=0x7f050005;
+        public static final int showimage2=0x7f050006;
+        public static final int showwhite=0x7f050007;
+        public static final int title_activity_menu=0x7f050003;
     }
     public static final class style {
         /** 
@@ -59,10 +120,10 @@ public final class R {
     
  API 14 theme customizations can go here. 
          */
-        public static final int AppBaseTheme=0x7f060000;
+        public static final int AppBaseTheme=0x7f070000;
         /**  Application theme. 
  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f060001;
+        public static final int AppTheme=0x7f070001;
     }
 }
